@@ -68,3 +68,7 @@ Created IRepository class
 4:45 pm
 Added Category and ICategory class/interface
 Built project and found no errors
+
+5:00 pm
+Added ISP_Call interface and installed Dapper using find and install
+Implemented the ISP_Call into the SP_Call class
