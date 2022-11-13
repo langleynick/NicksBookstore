@@ -29,3 +29,18 @@ Renamed Models folder to ViewModels
 Changed references to ErrorViewModel
 Added references to ApplicationDbContext in Startup.cs
 Built the project to confirm changes
+
+3:40 pm
+Added SD.cs class to NicksBooks.Utility
+Added Utilities reference to main project
+Added Models and Utility reference to DataAccess
+
+3:45 pm
+Added Customer Area
+Changed route in Startup.cs
+Moved HomeController.cs to Customer/Controllers
+Added explicit reference to Customer Area in HomeController.cs
+Changed namespace on the HomeController.cs file
+Copied over ViewStart and ViewImport files to Customer View and changed reference in ViewStart
+
+3:55 pm
