@@ -44,3 +44,5 @@ Changed namespace on the HomeController.cs file
 Copied over ViewStart and ViewImport files to Customer View and changed reference in ViewStart
 
 3:55 pm
+Added Admin Area
+Copied View pages into the Admin Area
