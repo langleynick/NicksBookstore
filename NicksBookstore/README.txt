@@ -56,7 +56,15 @@ Built project to check for any errors
 Added migration - migration name "DefaultIdentityMigration" in the DataAccess project
 Changed appsettings.json to include database name
 
-4:15
-Added Category.cs file and added the migration to the database
+4:15 pm
+Added Category.cs file and added the migration to the database titled "AddCategoryToDb"
 Changed ApplicationDbContext to include the Category table
 Updated Database
+
+4:30 pm
+Added Repository and IRepository folders
+Created IRepository class
+
+4:45 pm
+Added Category and ICategory class/interface
+Built project and found no errors
