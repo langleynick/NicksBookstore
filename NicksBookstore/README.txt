@@ -46,3 +46,17 @@ Copied over ViewStart and ViewImport files to Customer View and changed referenc
 3:55 pm
 Added Admin Area
 Copied View pages into the Admin Area
+
+END OF PART 1
+
+11-13-22
+
+4:00 pm
+Built project to check for any errors
+Added migration - migration name "DefaultIdentityMigration" in the DataAccess project
+Changed appsettings.json to include database name
+
+4:15
+Added Category.cs file and added the migration to the database
+Changed ApplicationDbContext to include the Category table
+Updated Database
