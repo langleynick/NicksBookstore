@@ -72,3 +72,14 @@ Built project and found no errors
 5:00 pm
 Added ISP_Call interface and installed Dapper using find and install
 Implemented the ISP_Call into the SP_Call class
+
+9:00 pm
+Added UnitofWork and IUnitOfWork class and interface- respectively
+Added service in Startup.cs to register UnitOfWork in project
+Fixed error with ISP_Call interface, made it public.
+
+9:30 pm
+Added CategoryController class
+and respective razor view "Index.cshtml" in Views\Category
+Added link to Category index page in the dropdown nav
+Built to check for issues
