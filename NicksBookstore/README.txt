@@ -83,3 +83,27 @@ Added CategoryController class
 and respective razor view "Index.cshtml" in Views\Category
 Added link to Category index page in the dropdown nav
 Built to check for issues
+
+9:45 pm
+Added Font awesome icons using javascript file provided
+Added the Upsert IActionResult in the CategoryController
+Created the View for the Upsert
+Made partial views for Create and back buttons, also edit and back buttons
+
+10:00 pm
+Edited Upsert view to include the partial views, dynamically change the title, and created specific labels for columns
+Added asp-action reference to Index page for Upsert
+Added section call to the validation scripts in the Upsert view
+
+10:30 pm
+Added Post action method in the Category controller to handle adding categories
+Added Save() void method to IUnitOfWork
+Removed _db.SaveChanges from CategoryRepository.cs
+Changed Upsert post method to save after adding category
+Fixed error where edit page was not working
+	I changed the Upsert method into the post method, instead of adding the post method after the action method
+
+11:00 pm
+Added the HTTPDelete API call in the CategoryController.cs
+Altered the category.js file to add reference to the delete method with an onclick function
+	Added delete function code using Sweet Alert and Toastr
