@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NicksBooks.DataAccess.Repository;
+using NicksBooks.DataAccess.Repository.IRepository;
 using NicksBookstore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -34,6 +36,7 @@ namespace NicksBookstore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
