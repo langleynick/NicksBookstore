@@ -130,12 +130,20 @@ Altered the category.js file to add reference to the delete method with an oncli
 11/24/22
 
 3:00 pm
+
 Added CoverType.cs file into the Models section
 	Gave properties id and name
 
 3:10 pm
+
 Added migration with the name "AddCoverTypeToDb"
 Added CoverType reference in DbContext file
 Updated database and confirmed in SQL Server Object Explorer
 
 3:20 pm
+
+Added CoverType repository interface and class
+
+3:45 pm
+
+Added references to CoverType in UnitOfWork and IUnitOfWork
