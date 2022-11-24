@@ -182,3 +182,11 @@ Added reference to Product model in IUnitOfWork and UnitOfWork
 Added index page for Product
 Created product.js file
 Referenced Product page in _Layout page
+
+5:45 pm
+
+Added Upsert View for Product
+Made product.js file for data table
+Used Tiny cloud to implement the API
+	Created an account with my school email
+	My api reference: <script src="https://cdn.tiny.cloud/1/shb3gfzzoppvcvlnmocoukcs735tkp03tpyvkf9wo6un98u5/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
