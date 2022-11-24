@@ -147,3 +147,9 @@ Added CoverType repository interface and class
 3:45 pm
 
 Added references to CoverType in UnitOfWork and IUnitOfWork
+
+4:00 pm
+
+Added CoverType controller, and view pages
+	Index.cshtml
+	Upsert.cshtml
