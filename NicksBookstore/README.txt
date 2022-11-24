@@ -166,3 +166,7 @@ updated database
 Added validation to the product class making title, ISBN, and author required fields
 Migration: AddValidationToProduct
 updated database
+
+4:50 pm
+
+Added ProductRepository and IProductRepository with changes to the update method in ProductRepository

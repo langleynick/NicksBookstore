@@ -5,8 +5,8 @@ using System.Text;
 
 namespace NicksBooks.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository : IRepository<Category>
+    public interface IProductRepository : IRepository<Product>
     {
-        public void Update(Category category);
+        public void Update(Product product);
     }
 }
