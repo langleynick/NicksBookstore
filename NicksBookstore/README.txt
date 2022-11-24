@@ -160,3 +160,9 @@ ERROR FIX: Added Area reference in CoverTypeController to route the user to the 
 Added Product model class and implemented it into the application db context
 Migration: AddProductToDb
 updated database
+
+4:40 pm
+
+Added validation to the product class making title, ISBN, and author required fields
+Migration: AddValidationToProduct
+updated database
