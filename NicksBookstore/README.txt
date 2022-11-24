@@ -154,3 +154,9 @@ Added CoverType controller, and view pages
 	Index.cshtml
 	Upsert.cshtml
 ERROR FIX: Added Area reference in CoverTypeController to route the user to the correct page
+
+4:30 pm
+
+Added Product model class and implemented it into the application db context
+Migration: AddProductToDb
+updated database
