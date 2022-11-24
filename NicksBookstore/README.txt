@@ -170,3 +170,15 @@ updated database
 4:50 pm
 
 Added ProductRepository and IProductRepository with changes to the update method in ProductRepository
+
+5:00 pm
+
+Added Product controller and Product View Model
+Downloaded Microsoft.AspNetCore.Mvc.ViewFeatures package to use
+
+5:20 pm
+
+Added reference to Product model in IUnitOfWork and UnitOfWork
+Added index page for Product
+Created product.js file
+Referenced Product page in _Layout page
