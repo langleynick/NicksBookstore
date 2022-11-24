@@ -153,3 +153,4 @@ Added references to CoverType in UnitOfWork and IUnitOfWork
 Added CoverType controller, and view pages
 	Index.cshtml
 	Upsert.cshtml
+ERROR FIX: Added Area reference in CoverTypeController to route the user to the correct page

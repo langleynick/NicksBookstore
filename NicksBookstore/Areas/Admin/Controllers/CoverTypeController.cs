@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace NicksBookstore.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
