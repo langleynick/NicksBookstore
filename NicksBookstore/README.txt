@@ -54,7 +54,7 @@ Copied over ViewStart and ViewImport files to Customer View and changed referenc
 Added Admin Area
 Copied View pages into the Admin Area
 
-END OF PART 1
+END OF PART I
 
 11-13-22
 
@@ -127,6 +127,7 @@ Added the HTTPDelete API call in the CategoryController.cs
 Altered the category.js file to add reference to the delete method with an onclick function
 	Added delete function code using Sweet Alert and Toastr
 
+END OF PART II
 11/24/22
 
 3:00 pm
@@ -190,3 +191,9 @@ Made product.js file for data table
 Used Tiny cloud to implement the API
 	Created an account with my school email
 	My api reference: <script src="https://cdn.tiny.cloud/1/shb3gfzzoppvcvlnmocoukcs735tkp03tpyvkf9wo6un98u5/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+8:15 pm
+
+Uncommented the Post Action method in ProductController.cs
+
+END OF PART 3
