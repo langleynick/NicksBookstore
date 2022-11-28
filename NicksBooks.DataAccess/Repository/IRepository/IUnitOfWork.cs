@@ -11,6 +11,6 @@ namespace NicksBooks.DataAccess.Repository.IRepository
         IProductRepository Product { get; }
         ISP_Call SP_Call { get; }
 
-       public void Save();
+       void Save();
     }
 }

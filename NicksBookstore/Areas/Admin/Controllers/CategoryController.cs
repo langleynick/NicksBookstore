@@ -16,9 +16,9 @@ namespace NicksBookstore.Areas.Admin.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        public IActionResult Index(Category category)
+        public IActionResult Index()
         {
-            return View(category);
+            return View();
         }
         public IActionResult Upsert(int? id)
         {
