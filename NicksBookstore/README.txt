@@ -197,3 +197,27 @@ Used Tiny cloud to implement the API
 Uncommented the Post Action method in ProductController.cs
 
 END OF PART 3
+
+11-28-22
+
+1:00 pm
+
+Changed second select list in Upsert page for products to display covertype instead of category again
+Edited Customer/Controllers/HomeController.cs to recieve the product list
+Edited home page to display cards for products added into database
+
+1:30 pm
+Added SD.cs class references to covertype
+Updated the controllers to recieve dynamic parameters
+
+12-04-22
+
+5:00 pm
+
+ERROR: Fixed product.js to display 'listPrice' instead of 'listprice'
+
+5:30 pm
+Added 3 Products into the database
+Updated Database
+
+END OF PART 4
