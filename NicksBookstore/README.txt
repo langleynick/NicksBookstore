@@ -101,6 +101,7 @@ Added link to Category index page in the dropdown nav
 Built to check for issues
 
 9:45 pm
+
 Added Font awesome icons using javascript file provided
 Added the Upsert IActionResult in the CategoryController
 Created the View for the Upsert
@@ -128,6 +129,7 @@ Altered the category.js file to add reference to the delete method with an oncli
 	Added delete function code using Sweet Alert and Toastr
 
 END OF PART II
+
 11/24/22
 
 3:00 pm
@@ -207,6 +209,7 @@ Edited Customer/Controllers/HomeController.cs to recieve the product list
 Edited home page to display cards for products added into database
 
 1:30 pm
+
 Added SD.cs class references to covertype
 Updated the controllers to recieve dynamic parameters
 
@@ -217,6 +220,7 @@ Updated the controllers to recieve dynamic parameters
 ERROR: Fixed product.js to display 'listPrice' instead of 'listprice'
 
 5:30 pm
+
 Added 3 Products into the database
 Updated Database
 
