@@ -20,7 +20,7 @@ namespace NicksBooks.DataAccess.Repository
         {
             //use .NET LINQ to retrieve the first or default category object
             //then pass the id as a generic entity which matches the cover type ID
-            var objFromDb = _db.CoverType.FirstOrDefault(s => s.Id == coverType.Id);
+            var objFromDb = _db.CoverTypes.FirstOrDefault(s => s.Id == coverType.Id);
             if (objFromDb != null)
             {
                 objFromDb.Name = coverType.Name;

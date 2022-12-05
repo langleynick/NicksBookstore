@@ -225,3 +225,16 @@ Added 3 Products into the database
 Updated Database
 
 END OF PART 4
+
+12-05-22
+
+1:00 pm
+
+Changed ApplicationDbContext to reference to the DbSet "CoverTypes" instead of CoverType. The array of CoverTypes is now named properly
+The SD.cs change should now GetAll covertypes.
+
+1:15 pm
+
+Added migration to the database
+	"20221205180952_ChangeCoverTypeDbSet.cs" confirmed.
+Updateed Database
