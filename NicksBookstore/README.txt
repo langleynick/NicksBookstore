@@ -224,8 +224,6 @@ ERROR: Fixed product.js to display 'listPrice' instead of 'listprice'
 Added 3 Products into the database
 Updated Database
 
-END OF PART 4
-
 12-05-22
 
 1:00 pm
@@ -238,3 +236,12 @@ The SD.cs change should now GetAll covertypes.
 Added migration to the database
 	"20221205180952_ChangeCoverTypeDbSet.cs" confirmed.
 Updateed Database
+
+5:30 pm
+
+[BUG FIX]
+Fixed methods in CoverTypeController.cs to not use stored procedures
+Stored procedures were outlined in the SD.cs file but not added into the database.
+Calls to the stored procedures returned null every time, causing an error with all CoverType related operations.
+
+END OF PART 4
