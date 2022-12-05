@@ -14,21 +14,26 @@ namespace NicksBookstore.Areas.Admin.Controllers
     public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+
         public CoverTypeController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
+
         public IActionResult Index()
         {
             return View();
         }
+
         public IActionResult Upsert(int? id)
         {
             CoverType coverType = new CoverType();
             if (id == null)
             {
+                // this is for create
                 return View(coverType);
             }
+            // this is for edit
             var parameter = new DynamicParameters();
             parameter.Add("@Id", id);
             coverType = _unitOfWork.SP_Call.OneRecord<CoverType>(SD.Proc_CoverType_Get, parameter);
@@ -38,6 +43,7 @@ namespace NicksBookstore.Areas.Admin.Controllers
             }
             return View(coverType);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(CoverType coverType)
@@ -46,6 +52,7 @@ namespace NicksBookstore.Areas.Admin.Controllers
             {
                 var parameter = new DynamicParameters();
                 parameter.Add("@Name", coverType.Name);
+
                 if (coverType.Id == 0)
                 {
                     _unitOfWork.SP_Call.Execute(SD.Proc_CoverType_Create, parameter);
@@ -60,15 +67,15 @@ namespace NicksBookstore.Areas.Admin.Controllers
             }
             return View(coverType);
         }
-        //API CALLS HERE
-        #region #region API CALLS
-        [HttpGet]
+
+        #region API CALLS
+
         public IActionResult GetAll()
         {
-            //return NotFound();
             var allObj = _unitOfWork.SP_Call.List<CoverType>(SD.Proc_CoverType_GetAll, null);
             return Json(new { data = allObj });
         }
+
         [HttpDelete]
         public IActionResult Delete(int id)
         {
@@ -83,6 +90,7 @@ namespace NicksBookstore.Areas.Admin.Controllers
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete Successful" });
         }
+
         #endregion
     }
 }

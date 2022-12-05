@@ -2,15 +2,21 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
+using System.Linq;
 
 namespace NicksBooks.DataAccess.Repository.IRepository
 {
     public interface ISP_Call : IDisposable
     {
-        T Single<T>(string procedurename, DynamicParameters param = null);
-        void Execute(string procedurename, DynamicParameters param = null);
-        T OneRecord<T>(string procedurename, DynamicParameters param = null);
-        IEnumerable<T> List<T>(string procedurename, DynamicParameters param = null);
-        Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedurename, DynamicParameters param = null);
+        T Single<T>(string procedureName, DynamicParameters param = null);
+
+        void Execute(string procedureName, DynamicParameters param = null);
+
+        T OneRecord<T>(string procedureName, DynamicParameters param = null);
+
+        IEnumerable<T> List<T>(string procedureName, DynamicParameters param = null);
+
+        Tuple<IEnumerable<T1>, IEnumerable<T2>> List<T1, T2>(string procedureName, DynamicParameters param = null);
     }
 }
