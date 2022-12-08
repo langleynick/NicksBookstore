@@ -224,6 +224,8 @@ ERROR: Fixed product.js to display 'listPrice' instead of 'listprice'
 Added 3 Products into the database
 Updated Database
 
+END OF PART 4
+
 12-05-22
 
 1:00 pm
@@ -244,4 +246,4 @@ Fixed methods in CoverTypeController.cs to not use stored procedures
 Stored procedures were outlined in the SD.cs file but not added into the database.
 Calls to the stored procedures returned null every time, causing an error with all CoverType related operations.
 
-END OF PART 4
+END OF PART 5
